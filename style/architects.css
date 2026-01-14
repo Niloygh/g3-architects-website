@@ -113,6 +113,10 @@ main> section{
     max-width: 540px;
 }
 
+.fact-description{
+margin-bottom: 40px;
+}
+
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -148,12 +152,17 @@ main> section{
         flex-direction: column;
     }
 
-    .team-img-container{
+    .team-img-container, .facts-container{
     grid-template-columns: repeat(1, 1fr);
     }
     .our-features{
         margin-left: 20px;
     }
+    .facts-container{
+        gap: 24px;
+        justify-items: center;
+    }
+  
 }
 
 /* medium size device */
